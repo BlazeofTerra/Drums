@@ -1,0 +1,35 @@
+body {
+    background-color: lightgray;
+}
+
+h1 {
+    text-align: center;
+}
+
+#buttons {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+button {
+    height: 3em;
+    width: 7em;
+    background-color: cornflowerblue;
+    border: 1px solid black;
+    margin: 0 1em;
+    border-radius: 0.5em;
+}
+
+button:hover {
+    background-color: crimson;
+}
+
+button:active {
+    background-color: darkorchid;
+}
+
+.pressedKey {
+    background-color: darkorchid !important;
+}
